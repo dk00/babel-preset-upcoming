@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-upcoming",
-  "version": "7.0.0-beta.53",
+  "version": "7.0.0-beta.54",
   "description": "Babel preset for upcoming JavaScript features",
   "homepage": "https://github.com/dk00/babel-preset-upcoming",
   "license": "MIT",
@@ -16,23 +16,23 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@babel/helper-plugin-utils": "7.0.0-beta.53",
-    "@babel/plugin-proposal-function-bind": "7.0.0-beta.53",
-    "@babel/plugin-proposal-do-expressions": "7.0.0-beta.53",
-    "@babel/plugin-proposal-export-default-from": "7.0.0-beta.53",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "7.0.0-beta.53",
-    "@babel/plugin-proposal-optional-chaining": "7.0.0-beta.53",
-    "@babel/plugin-proposal-pipeline-operator": "7.0.0-beta.53",
-    "@babel/plugin-proposal-export-namespace-from": "7.0.0-beta.53",
-    "@babel/plugin-proposal-function-sent": "7.0.0-beta.53",
-    "@babel/plugin-proposal-numeric-separator": "7.0.0-beta.53",
-    "@babel/plugin-proposal-throw-expressions": "7.0.0-beta.53",
-    "@babel/plugin-proposal-async-generator-functions": "7.0.0-beta.53",
-    "@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.53",
-    "@babel/plugin-proposal-optional-catch-binding": "7.0.0-beta.53",
-    "@babel/plugin-proposal-unicode-property-regex": "7.0.0-beta.53",
-    "@babel/plugin-syntax-dynamic-import": "7.0.0-beta.53",
-    "@babel/plugin-syntax-import-meta": "7.0.0-beta.53"
+    "@babel/helper-plugin-utils": "7.0.0-beta.54",
+    "@babel/plugin-proposal-function-bind": "7.0.0-beta.54",
+    "@babel/plugin-proposal-do-expressions": "7.0.0-beta.54",
+    "@babel/plugin-proposal-export-default-from": "7.0.0-beta.54",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "7.0.0-beta.54",
+    "@babel/plugin-proposal-optional-chaining": "7.0.0-beta.54",
+    "@babel/plugin-proposal-pipeline-operator": "7.0.0-beta.54",
+    "@babel/plugin-proposal-export-namespace-from": "7.0.0-beta.54",
+    "@babel/plugin-proposal-function-sent": "7.0.0-beta.54",
+    "@babel/plugin-proposal-numeric-separator": "7.0.0-beta.54",
+    "@babel/plugin-proposal-throw-expressions": "7.0.0-beta.54",
+    "@babel/plugin-proposal-async-generator-functions": "7.0.0-beta.54",
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.52 || >=7.0.0-beta.55",
+    "@babel/plugin-proposal-optional-catch-binding": "7.0.0-beta.54",
+    "@babel/plugin-proposal-unicode-property-regex": "7.0.0-beta.54",
+    "@babel/plugin-syntax-dynamic-import": "7.0.0-beta.54",
+    "@babel/plugin-syntax-import-meta": "7.0.0-beta.54"
   },
   "peerDependencies": {
     "@babel/core": ">=7.0.0-beta.50"
