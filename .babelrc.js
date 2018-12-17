@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
-    'livescript'
+    'livescript',
+    '@babel/proposal-do-expressions'
   ]
 }

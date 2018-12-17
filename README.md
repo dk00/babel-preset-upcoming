@@ -19,3 +19,19 @@ Using npm:
 ```sh
 npm install --save-dev babel-preset-upcoming
 ```
+
+## Options
+
+```js
+{
+  //Top level options will be applied to all applicable plugins
+  loose: true,
+  useBuiltIns: true,
+  pipelineProposal: true,
+
+  //Plugin specific options overrides others
+  '@babel/proposal-object-rest-spread': {
+    loose: true
+  }
+}
+```
