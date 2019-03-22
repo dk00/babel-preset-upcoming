@@ -6,11 +6,6 @@ jobs:
       - image: circleci/node:10
     steps:
       - checkout
-      - run: sudo apt-get install apt-transport-https ca-certificates
-      - run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-      - run: echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-      - run: sudo apt-get update && sudo apt-get install --no-install-recommends
-      - run: yarn --version
       - restore_cache:
           name: Restore Yarn Package Cache
           keys:
@@ -24,5 +19,5 @@ jobs:
           paths:
             - ~/.cache/yarn
       - run:
-          name: test
+          name: Test
           command: yarn test

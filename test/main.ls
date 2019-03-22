@@ -17,7 +17,7 @@ function work-around-object-spread t
 function main t
   code = 'a?.b'
   options = babelrc: false presets:
-    [babel-preset-upcoming {} decorators-legacy: true pipeline-proposal: \minimal]
+    [babel-preset-upcoming {} decorators-legacy: true pipeline-proposal: \smart]
   result = void
   try result := transform code, options
   catch

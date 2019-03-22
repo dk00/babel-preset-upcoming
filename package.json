@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-upcoming",
-  "version": "7.2.1",
+  "version": "7.4.1",
   "description": "Babel preset for upcoming JavaScript features",
   "homepage": "https://github.com/dk00/babel-preset-upcoming",
   "license": "MIT",
@@ -11,9 +11,9 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "pretest": "yarn run build",
+    "pretest": "npm run build",
     "test": "lsc test",
-    "prepublishOnly": "yarn run build"
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@babel/helper-plugin-utils": "7.0.0",
@@ -25,12 +25,13 @@
     "@babel/plugin-proposal-function-sent": "7.2.0",
     "@babel/plugin-proposal-nullish-coalescing-operator": "7.2.0",
     "@babel/plugin-proposal-numeric-separator": "7.2.0",
-    "@babel/plugin-proposal-object-rest-spread": "7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.0",
     "@babel/plugin-proposal-optional-catch-binding": "7.2.0",
     "@babel/plugin-proposal-optional-chaining": "7.2.0",
-    "@babel/plugin-proposal-pipeline-operator": "7.2.0",
+    "@babel/plugin-proposal-partial-application": "^7.4.0",
+    "@babel/plugin-proposal-pipeline-operator": "7.3.2",
     "@babel/plugin-proposal-throw-expressions": "7.2.0",
-    "@babel/plugin-proposal-unicode-property-regex": "7.2.0",
+    "@babel/plugin-proposal-unicode-property-regex": "7.4.0",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "@babel/plugin-syntax-import-meta": "7.2.0"
   },
@@ -38,12 +39,12 @@
     "@babel/core": "^7.2.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
-    "@babel/register": "^7.0.0",
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.0",
+    "@babel/register": "^7.4.0",
     "babel-plugin-livescript": "^0.0.3",
     "livescript": "1.5.0",
-    "rollup": "^1.1.2",
+    "rollup": "^1.7.2",
     "rollup-plugin-babel": "4.0.0-beta.8",
     "rollup-plugin-pnp-resolve": "^1.0.1",
     "tape": ""

@@ -1,7 +1,7 @@
 function preset api, {
   loose=true
   use-built-ins=true
-  proposal=\minimal
+  proposal=\smart
   ...overrides
 }
   plugin = (name, options) ->
@@ -17,6 +17,7 @@ function preset api, {
     plugin '@babel/plugin-proposal-export-default-from'
     plugin '@babel/plugin-proposal-nullish-coalescing-operator' {loose}
     plugin '@babel/plugin-proposal-optional-chaining' {loose}
+    plugin '@babel/plugin-proposal-partial-application'
     plugin '@babel/plugin-proposal-pipeline-operator' {proposal}
     plugin '@babel/plugin-proposal-export-namespace-from'
     plugin '@babel/plugin-proposal-function-sent'
@@ -28,6 +29,5 @@ function preset api, {
     plugin '@babel/plugin-proposal-unicode-property-regex'
     plugin '@babel/plugin-syntax-dynamic-import'
     plugin '@babel/plugin-syntax-import-meta'
-    plugin 'babel-plugin-livescript'
 
 export default: preset
