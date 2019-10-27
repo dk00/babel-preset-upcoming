@@ -25,6 +25,7 @@ function preset api, {
     plugin '@babel/plugin-proposal-throw-expressions'
     plugin '@babel/plugin-proposal-async-generator-functions'
     plugin '@babel/plugin-proposal-object-rest-spread' {use-built-ins}
+    plugin '@babel/plugin-proposal-logical-assignment-operators'
     plugin '@babel/plugin-proposal-optional-catch-binding'
     plugin '@babel/plugin-proposal-unicode-property-regex'
     plugin '@babel/plugin-syntax-dynamic-import'
