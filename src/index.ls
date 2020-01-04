@@ -28,6 +28,7 @@ function preset api, {
     plugin '@babel/plugin-proposal-logical-assignment-operators'
     plugin '@babel/plugin-proposal-optional-catch-binding'
     plugin '@babel/plugin-proposal-unicode-property-regex'
+    plugin '@babel/plugin-syntax-top-level-await'
     plugin '@babel/plugin-syntax-dynamic-import'
     plugin '@babel/plugin-syntax-import-meta'
 
