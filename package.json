@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-upcoming",
-  "version": "7.4.1",
+  "version": "7.7.7",
   "description": "Babel preset for upcoming JavaScript features",
   "homepage": "https://github.com/dk00/babel-preset-upcoming",
   "license": "MIT",
